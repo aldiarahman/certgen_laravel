@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7d66b4-05b4-4197-881c-c839a4e2264e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fb7d66b4-05b4-4197-881c-c839a4e2264e" name="Default Changelist" comment="&quot;update 1&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PesertaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PesertasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,8 +170,16 @@
       <updated>1572230982004</updated>
       <workItem from="1572230985046" duration="9493000" />
       <workItem from="1572245698676" duration="38000" />
-      <workItem from="1572245847154" duration="4351000" />
+      <workItem from="1572245847154" duration="5701000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;update 1&quot;">
+      <created>1572255051278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572255051278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;update 1&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;update 1&quot;" />
   </component>
 </project>
