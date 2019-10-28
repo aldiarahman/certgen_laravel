@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use App\Peserta;
+use Illuminate\Http\Request;
 
-class PesertaController extends Controller
+class PesertasController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +15,8 @@ class PesertaController extends Controller
     public function index()
     {
         //
-        //$peserta = DB::table('pesertas')->get();
         $peserta = Peserta::all();
-        return view('peserta.index',['peserta' => $peserta]);
+        return view('peserta.index',compact('peserta'));
     }
 
     /**
@@ -45,10 +43,10 @@ class PesertaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Peserta  $peserta
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Peserta $peserta)
     {
         //
     }
@@ -56,10 +54,10 @@ class PesertaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Peserta  $peserta
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Peserta $peserta)
     {
         //
     }
@@ -68,10 +66,10 @@ class PesertaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Peserta  $peserta
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Peserta $peserta)
     {
         //
     }
@@ -79,10 +77,10 @@ class PesertaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Peserta  $peserta
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Peserta $peserta)
     {
         //
     }

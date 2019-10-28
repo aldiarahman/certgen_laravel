@@ -28,6 +28,6 @@ Route::get('/peserta', function () {
 
 Route::get('/','PagesController@home');
 Route::get('/about','PagesController@about');
-Route::get('/peserta','PesertaController@index');
+Route::get('/peserta','PesertasController@index');
 
 
